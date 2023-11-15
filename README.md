@@ -44,7 +44,7 @@ restart the elasticsearch container, and in the pymyelarepl container,
 
 <br>
 
-the results of the two cases are like the below:
+the results of the two cases are like the below, which means data is replicated successfully:
 
 ```
 {'errors': False, 'took': 12, 'items': [{'create': {'_index': 'basic_replication', '_id': '1', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 6, '_primary_term': 1, 'status': 201}}, {'create': {'_index': 'basic_replication', '_id': '2', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 7, '_primary_term': 1, 'status': 201}}]}
